@@ -26,4 +26,9 @@
   <ItemGroup>
     <None Include="Sample EPP Part 2.pdf" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Hitboxes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>

@@ -148,6 +148,9 @@
   <ItemGroup>
     <None Include="Sample EPP Part 2.pdf" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Hitboxes.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
