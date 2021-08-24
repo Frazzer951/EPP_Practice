@@ -140,7 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="IntegerLinkedList.cpp" />
-    <ClCompile Include="prob2.cpp" />
+    <ClCompile Include="prob3.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="IntegerLinkedList.h" />

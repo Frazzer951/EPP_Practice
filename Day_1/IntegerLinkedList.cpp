@@ -16,7 +16,8 @@ int IntegerLinkedList::getSum()
 
 int IntegerLinkedList::getSumRecurse( SNode * ptr )
 {
-  return -1;    // COMPLETE THIS FOR PROBLEM 3
+  if( ptr == nullptr ) return 0;
+  return ptr->elem + getSumRecurse( ptr->next );
 }
 
 void IntegerLinkedList::addFront( int x )
