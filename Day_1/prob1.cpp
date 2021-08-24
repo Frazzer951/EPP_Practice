@@ -23,6 +23,28 @@ int getElement( int arr[], int size )
   {
     if( arr[i] > largest )
     {
+      second_largest = largest;
+      largest        = arr[i];
+    }
+    else if( arr[i] > second_largest || second_largest == largest )
+    {
+      second_largest = arr[i];
+    }
+  }
+
+  return second_largest;
+}
+
+/*
+int getElement( int arr[], int size )
+{
+  int largest        = arr[0];
+  int second_largest = arr[0];
+
+  for( int i = 0; i < size; i++ )
+  {
+    if( arr[i] > largest )
+    {
       largest = arr[i];
     }
   }
@@ -37,6 +59,8 @@ int getElement( int arr[], int size )
   }
   return second_largest;
 }
+
+*/
 
 // EDIT CODE BELOW ONLY FOR TESTING (YOUR CODE WILL BE GRADED WITH DIFFERENT TESTS)
 
